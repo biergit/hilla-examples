@@ -1,4 +1,4 @@
-import '@polymer/iron-icon';
+import '@polymer/polymer';
 import '@vaadin/button';
 import '@vaadin/checkbox';
 import '@vaadin/combo-box';
@@ -7,7 +7,7 @@ import '@vaadin/polymer-legacy-adapter';
 import '@vaadin/select';
 import '@vaadin/text-area';
 import '@vaadin/text-field';
-import '@vaadin/vaadin-icons';
+import '@vaadin/icons';
 import { html, nothing } from 'lit';
 import { customElement, state } from 'lit/decorators.js';
 import { View } from '../../views/view';

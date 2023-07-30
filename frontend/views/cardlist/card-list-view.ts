@@ -1,8 +1,8 @@
-import '@polymer/iron-icon';
+import '@polymer/polymer';
 import '@vaadin/grid/all-imports';
 import '@vaadin/horizontal-layout';
 import '@vaadin/polymer-legacy-adapter';
-import '@vaadin/vaadin-icons';
+import '@vaadin/icons';
 import '@vaadin/vertical-layout';
 import { html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';

@@ -2,7 +2,7 @@ package com.example.application.data.entity;
 
 import com.example.application.data.AbstractEntity;
 import dev.hilla.Nonnull;
-import javax.persistence.Entity;
+import jakarta.persistence.Entity;
 
 @Entity
 public class SampleAddress extends AbstractEntity {

@@ -2,8 +2,8 @@ package com.example.application.data.entity;
 
 import com.example.application.data.AbstractEntity;
 import dev.hilla.Nonnull;
-import javax.persistence.Entity;
-import javax.persistence.Lob;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Lob;
 
 @Entity
 public class SampleFoodProduct extends AbstractEntity {

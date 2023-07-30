@@ -1,4 +1,4 @@
-import '@polymer/iron-icon';
+import '@polymer/polymer';
 import '@vaadin/board';
 import '@vaadin/charts';
 import '@vaadin/grid';
@@ -6,7 +6,7 @@ import { GridBodyRenderer, GridItemModel } from '@vaadin/grid';
 import { GridColumn } from '@vaadin/grid/src/vaadin-grid-column';
 import '@vaadin/horizontal-layout';
 import '@vaadin/select';
-import '@vaadin/vaadin-icons';
+import '@vaadin/icons';
 import '@vaadin/vertical-layout';
 import ChartSeries from 'Frontend/generated/com/example/application/views/dashboard/ChartSeries';
 import PieSeries from 'Frontend/generated/com/example/application/views/dashboard/PieSeries';

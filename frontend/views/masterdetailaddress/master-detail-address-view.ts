@@ -1,6 +1,6 @@
 import { Binder, field } from '@hilla/form';
 import { EndpointError } from '@hilla/frontend';
-import '@polymer/iron-icon';
+import '@polymer/polymer';
 import '@vaadin/button';
 import '@vaadin/date-picker';
 import '@vaadin/date-time-picker';
@@ -15,7 +15,7 @@ import '@vaadin/polymer-legacy-adapter';
 import '@vaadin/split-layout';
 import '@vaadin/text-field';
 import '@vaadin/upload';
-import '@vaadin/vaadin-icons';
+import '@vaadin/icons';
 import SampleAddress from 'Frontend/generated/com/example/application/data/entity/SampleAddress';
 import SampleAddressModel from 'Frontend/generated/com/example/application/data/entity/SampleAddressModel';
 import Sort from 'Frontend/generated/dev/hilla/mappedtypes/Sort';

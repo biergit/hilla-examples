@@ -1,7 +1,7 @@
 import { Binder, field, StringModel } from '@hilla/form';
-import { BinderNode } from '@hilla/form/BinderNode';
+import { BinderNode } from '@hilla/form/BinderNode.js';
 import { EndpointError } from '@hilla/frontend';
-import '@polymer/iron-icon';
+import '@polymer/polymer';
 import '@vaadin/button';
 import '@vaadin/date-picker';
 import '@vaadin/date-time-picker';
@@ -17,7 +17,7 @@ import '@vaadin/split-layout';
 import '@vaadin/text-field';
 import '@vaadin/upload';
 import { Upload, UploadFile } from '@vaadin/upload';
-import '@vaadin/vaadin-icons';
+import '@vaadin/icons';
 import SampleBook from 'Frontend/generated/com/example/application/data/entity/SampleBook';
 import SampleBookModel from 'Frontend/generated/com/example/application/data/entity/SampleBookModel';
 import Sort from 'Frontend/generated/dev/hilla/mappedtypes/Sort';

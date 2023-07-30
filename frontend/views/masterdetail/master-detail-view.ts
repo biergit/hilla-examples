@@ -1,6 +1,6 @@
 import { Binder, field } from '@hilla/form';
 import { EndpointError } from '@hilla/frontend';
-import '@polymer/iron-icon';
+import '@polymer/polymer';
 import '@vaadin/button';
 import '@vaadin/date-picker';
 import '@vaadin/date-time-picker';
@@ -15,7 +15,7 @@ import '@vaadin/polymer-legacy-adapter';
 import '@vaadin/split-layout';
 import '@vaadin/text-field';
 import '@vaadin/upload';
-import '@vaadin/vaadin-icons';
+import '@vaadin/icons';
 import SamplePerson from 'Frontend/generated/com/example/application/data/entity/SamplePerson';
 import SamplePersonModel from 'Frontend/generated/com/example/application/data/entity/SamplePersonModel';
 import Sort from 'Frontend/generated/dev/hilla/mappedtypes/Sort';
@@ -57,7 +57,8 @@ export class MasterDetailView extends View {
             <vaadin-grid-sort-column auto-width path="occupation"></vaadin-grid-sort-column>
             <vaadin-grid-column auto-width path="important"
               ><template
-                ><iron-icon
+                >
+                <iron-icon
                   hidden="[[!item.important]]"
                   icon="vaadin:check"
                   style="width: var(--lumo-icon-size-s); height: var(--lumo-icon-size-s); color: var(--lumo-primary-text-color);"
@@ -68,7 +69,8 @@ export class MasterDetailView extends View {
                   icon="vaadin:minus"
                   style="width: var(--lumo-icon-size-s); height: var(--lumo-icon-size-s); color: var(--lumo-disabled-text-color);"
                 >
-                </iron-icon></template
+                </iron-icon>
+                </template
             ></vaadin-grid-column>
           </vaadin-grid>
         </div>
